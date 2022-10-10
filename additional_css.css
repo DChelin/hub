@@ -1,0 +1,36 @@
+.woocommerce .woocommerce-ordering select {
+    display: none;
+}
+
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail:hover {
+	transition:transform .6s;
+	transform: scale(1.05);
+}
+
+
+.basic #ms-sub-form input[type="submit"], .basic #ms-sub-form button, .basic #ms-sub-form input[type="button"] {
+	font-family:montserrat;
+	text-transform:uppercase;
+	width:100%
+}
+
+
+.basic #ms-sub-form, .basic #ms-sub-form label, .basic #ms-sub-form input {
+	color:#ffffff;
+	font-family:montserrat;
+	text-transform:uppercase;
+}
+
+div#from p {
+    height: 0px!important;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+@media screen 
+  and (min-device-width: 1030px) 
+	and (max-device-width: 1500px) {
+		.th-smaller-h1 h1 {
+			font-size: 50px!important;
+		}
+}
